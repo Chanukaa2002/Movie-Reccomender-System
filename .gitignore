@@ -8,3 +8,5 @@ build/
 .ipynb_checkpoints/
 .DS_Store
 Thumbs.db
+*.pkl
+models/*.pkl
