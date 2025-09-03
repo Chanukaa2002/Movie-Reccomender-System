@@ -1,0 +1,8 @@
+# Add your dependencies here (example basics)
+numpy
+pandas
+scikit-learn
+matplotlib
+python-dotenv
+requests
+streamlit

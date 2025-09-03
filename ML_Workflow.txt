@@ -1,0 +1,53 @@
+✅ Machine Learning Workflow Checklist
+
+0) Project setup
+   - Create repo, README, issues
+   - Define success criteria and baseline
+
+1) Problem framing
+   - Objective (business/research)
+   - Inputs/Outputs, constraints, metrics
+
+2) Data
+   - Sources, access, licenses
+   - Train/Val/Test split strategy
+   - Data dictionary / schema
+
+3) Preprocessing
+   - Missing values
+   - Categorical encoding
+   - Scaling/normalization
+   - Feature engineering
+   - Leakage checks
+
+4) EDA
+   - Summary stats, distributions
+   - Outliers, imbalance
+   - Correlations/relationships
+   - Data quality notes
+
+5) Baseline & Models
+   - Simple baseline first
+   - Candidate models and rationale
+
+6) Training & Evaluation
+   - Cross-validation strategy
+   - Metrics (clf: acc/prec/rec/F1/AUC | reg: RMSE/MAE/R²)
+   - Error analysis
+
+7) Tuning
+   - Hyperparam search plan (Grid/Random/Bayes)
+   - Reproducibility (seed, versions)
+
+8) Packaging & Artifacts
+   - Save model, encoder, scaler
+   - Version artifacts & metadata
+
+9) Deployment
+   - API/Batch/Stream (FastAPI/Flask/Streamlit)
+   - Containerization (optional)
+   - Sec/Perf/Cost considerations
+
+10) Monitoring & Iteration
+   - Data & performance drift
+   - Feedback loops and retraining cadence
